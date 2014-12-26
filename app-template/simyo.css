@@ -1,0 +1,29 @@
+html {
+    font-size: 100%;
+}
+input.error {
+    border: 1px dashed #f00;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+thead th  {
+    color: #FF4E00;
+    font-weight: 500;
+    border-bottom: 1px solid #FF4E00;
+    text-align: left;
+}
+tbody tr:nth-child(even) {
+    background-color: #EAEAE7;
+}
+#remoteError, #networkError {
+    display: none;
+}
+
+#loadSimyo {
+    visibility: hidden;
+}
+.gaia-list {
+    margin-top: 1rem;
+}

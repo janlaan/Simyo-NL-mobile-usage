@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title data-l10n-id="simyo-usage">Simyo usage</title>
+        <link rel="resource" type="application/l10n" href="locales/locales.ini" />
+    
+        <link href="../building-blocks/util.css" rel="stylesheet" type="text/css">
+        <link href="../building-blocks/style/headers.css" rel="stylesheet" type="text/css">
+        <link href="../building-blocks/style/buttons.css" rel="stylesheet" type="text/css">
+        <link href="../building-blocks/style/input_areas.css" rel="stylesheet" type="text/css">
+        <link href="../building-blocks/style/status.css" rel="stylesheet" type="text/css">
+        <link href="../building-blocks/style/progress_activity.css" rel="stylesheet" type="text/css">
+        <link href="simyo.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="js/simyo.js"></script>
+        <script type="text/javascript" src="js/l10n.js"></script>
+    </head>
+<body role="application">
+    <section role="region">
+        <header>
+            <h1 data-l10n-id="simyo-usage">Simyo usage</h1>
+        </header>
+        <progress class="fixed" id="loadSimyo" value="0" max="100" class="pack-activity"></progress>
+        <section class="gaia-list git scroll sticky" role="region">
+            <form name="checkform" action="" id="checkform">
+                <input type="text" data-l10n-id="phonenumber" name="phonenumber" placeholder="Phone number..." id="phonenumber"/>
+                <input type="password" name="password" placeholder="password..." id="password"/>
+                <button type="submit" class="bb-button recommend" id="checkStatus" data-l10n-id="check" >Check!</button>
+            </form>
+        </section>
+    </section>
+    <section role="status" id="remoteError">
+      <p data-l10n-id="login-failed">Failed to log in to Simyo. Please check your credentials.</p>
+    </section>
+    <section role="status" id="networkError">
+      <p data-l10n-id="network-error">Failed to connect to Simyo. Please check your network settings.</p>
+    </section>
+</body>

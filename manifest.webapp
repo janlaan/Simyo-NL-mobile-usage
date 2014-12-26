@@ -1,0 +1,28 @@
+{
+  "version": "0.5",
+  "name": "Simyo NL mobile usage",
+  "description": "Check your Simyo NL data/phone usage history",
+  "launch_path": "/app-template/index.html",
+  "icons": {
+    "16": "/app-template/app-icons/icon-16.png",
+    "48": "/app-template/app-icons/icon-48.png",
+    "128": "/app-template/app-icons/icon-128.png"
+  },
+  "permissions": {
+    "systemXHR": {
+      "description": "Needed to connect to Simyo"
+    }
+  },
+  "type": "privileged",
+  "developer": {
+    "name": "Jan Laan",
+    "url": "https://noveria.nl/fxos"
+  },
+  "default_locale": "en",
+  "locales": {
+    "nl": {
+      "description": "Bekijk je Simyo NL data/telefoon verbruiksgeschiedenis"
+    }
+  },
+  "default_locale": "en"
+}
