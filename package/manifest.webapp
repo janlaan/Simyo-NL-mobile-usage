@@ -1,9 +1,0 @@
-{
-    "name": "Simyo NL Mobile Usage",
-    "package_path" : "https://noveria.nl/fxos/simyo/package.zip",
-    "version": "0.5",
-    "developer": {
-        "name": "Jan Laan",
-        "url": "https://noveria.nl/fxos"
-    }
-}
